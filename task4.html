@@ -1,0 +1,14 @@
+// task4(button text on result ):
+
+<h1 id="result">name</h1>
+<button onclick="update(event)">a</button>
+<button onclick="update(event)">b</button>
+<button onclick="update(event)">c</button>
+
+<script>
+    var h1=document.getElementById("result")
+    function update(event)
+    {
+       h1.textContent= event.target.textContent
+    }
+</script>

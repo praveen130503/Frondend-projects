@@ -1,0 +1,27 @@
+//todo list final prjt:
+
+<input id="input">
+<button onclick="hel()">add</button>
+<ul id="a">
+   <li>hello
+      <button id="q"onclick="delet(event)">delete</button>
+   </li>
+</ul>
+
+<script>
+   var ul=document.getElementById("a")
+   var input=document.getElementById("input")
+   var dele=document.getElementById("q")
+  
+   function hel()
+   {
+      var bb=document.createElement("li")
+      bb.innerHTML=input.value + "<button onclick='delet(event)'>delete</button>"
+      ul.append(bb)
+  
+}
+   function delet(event)
+   {
+      event.target.parentElement.remove()
+   }
+</script>
