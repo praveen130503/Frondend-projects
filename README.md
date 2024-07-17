@@ -16,18 +16,6 @@ Prerequisites
 Web browser (e.g., Chrome, Firefox, Safari)
 Code editor (e.g., Visual Studio Code, Sublime Text)
 Git (for version control)
-Installation
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/frontend-website.git
-Navigate to the Project Directory:
-
-bash
-Copy code
-cd frontend-website
-Open the Project in a Code Editor:
 
 Use your preferred code editor to open the project directory.
 Usage
